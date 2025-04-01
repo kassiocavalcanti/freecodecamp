@@ -1,0 +1,18 @@
+.form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000009a;
+}
+h1, #description {
+    text-align: center;
+}
+body {
+    color: #ffffff;
+    background-image: url(image-bjj.jpg);
+    background-position: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submit {
+    background-color: #add8e6;
+}

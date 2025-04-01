@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form about brazilian jiu jitsu.</p>
+    </header>
+    <main>
+    <div class="form">
+    <form  id="survey-form" action="" autocomplete="off">
+        <p><label for="name" id="name-label">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="Mica Galvão"></p>
+        <p><label for="email" id="email-label">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="brazilian@jiujitsu"></p>
+        <p><label for="number" id="number-label">Age:</label>
+            <input type="number" name="age" id="number" min="0" max="100" placeholder="20"></p>
+        <p>Belt: 
+            <select name="select" id="dropdown">
+                <option value="W">White Belt</option>
+                <option value="GY">Gray Belt</option>
+                <option value="Y">Yellow Belt</option>
+                <option value="o">Orange Belt</option>
+                <option value="G">Green Belt</option>
+                <option value="BL">Blue Belt</option>
+                <option value="P">Purple Belt</option>
+                <option value="BR">Brown Belt</option>
+                <option value="BK">Black Belt</option></select></p>
+        <P>Are you passer or guard?</P>
+            <input type="radio" name="pos" id="pass" value="pass"><label for="pass">Passer</label>
+            <input type="radio" name="pos" id="guard" value="guard"><label for="guard">Guard</label>
+        <p>Which days you train in the week?
+            <fieldset>
+            <input type="checkbox" name="" id="sunday" value="sunday"><label for="sunday">Sunday</label>
+            <input type="checkbox" name="" id="monday" value="monday"><label for="monday">Monday</label>
+            <input type="checkbox" name="" id="tuesday" value="tuesday"><label for="tuesday">Tuesday</label>
+            <input type="checkbox" name="" id="wednesday" value="wednesday"><label for="wednesday">Wednesday</label>
+            <input type="checkbox" name="" id="thursday" value="thursday"><label for="thursday">Thursday</label>
+            <input type="checkbox" name="" id="friday" value="friday"><label for="friday">Friday</label>
+            <input type="checkbox" name="" id="saturday" value="saturday"><label for="saturday">Saturday</label>
+        </fieldset></p>
+       <label for="textarea"><p>What is your favorite moviment?</p></label>
+       <textarea name="" id="textarea" placeholder="type here..."></textarea>
+       <input type="submit" value="submit" id="submit">
+    </form>
+    </div>
+    </main>
+</body>
+</html>
